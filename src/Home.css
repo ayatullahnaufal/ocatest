@@ -1,0 +1,111 @@
+.wrapper {
+    width: 100%;
+    height: 674px;
+}
+
+.sidebar {
+    background-color: #ED1260;
+    height: 100%;
+}
+
+.content {
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+ul {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+ul li {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+ul li img {
+    margin-right: 5px;
+}
+
+.menu {
+    margin-top: 140px;
+}
+
+.menu hr {
+    border: 1.65px solid white;
+    border-radius: 2px;
+    opacity: 1 !important;
+    margin-top: 8px;
+}
+
+.menu ul li .img-alt {
+    margin-left: 90px;
+}
+
+.nav-link {
+    padding: 0 !important;
+}
+
+.form-search {
+    font-size: 12px;
+    width: 250px;
+    font-style: italic;
+    border-left: 0px;
+}
+
+.profile {
+    font-size: 12px;
+}
+
+.bg-purple {
+    background-color: #ED1260;
+}
+
+.welcome .card-header {
+    padding: 0.15rem 1rem !important;
+}
+
+.icon-search {
+    border-right: 0px;
+}
+
+.welcome .card-body h2 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.welcome .card-body small {
+    font-size: 12px;
+}
+
+.text-calls {
+    color: aqua;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #919191;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #919191;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #919191;
+}
+
+.form-search::placeholder {
+    color: #919191;
+}
